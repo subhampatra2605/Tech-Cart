@@ -1,0 +1,46 @@
+/* home.css */
+
+.home-container {
+    padding: 20px;
+  }
+  
+  .home-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .home-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .home-services {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .home-service {
+    flex: 0 0 48%;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .home-service:hover {
+    transform: translateY(-5px);
+  }
+  
+  .home-service h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .home-service p {
+    font-size: 16px;
+    color: #888;
+  }
+  
